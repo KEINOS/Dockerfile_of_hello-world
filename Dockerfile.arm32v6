@@ -1,4 +1,4 @@
-FROM garm32v6/golang:alpine AS build
+FROM arm32v6/golang:alpine AS build
 WORKDIR /home/app
 COPY ./src .
 ENV GO111MODULE=on
